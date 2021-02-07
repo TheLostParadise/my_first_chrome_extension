@@ -2,9 +2,7 @@
 <html>
     <head>
         <title>PageFontStyle</title>
-        <script src="scripts_and_others/jquery-3.5.1.min.js"></script>
-        <!-- <script src="popup.js"></script> -->
-
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   </head>
   <style>
     body {
@@ -13,7 +11,14 @@
 }
   </style>
   <body>
-        <input type="text" id="fontColor" >
-        <input type="submit" id="btnChange" value="Change">
+    	<h1>这是一个popup页面！</h1>
+	    <h2>background</h2>
+      <div>
+          <a href="#" id="open_background">打开background</a>
+      </div>
   </body>
+
+  <script src="scripts_and_others/jquery-3.5.1.min.js"></script>  
+  <script src="popup.js"></script>   
+  <!-- //popup.js要放在下面，不然popup.js不知道open_background是什么id。   -->
 </html>
