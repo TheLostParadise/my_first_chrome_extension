@@ -1,0 +1,2 @@
+# my_first_chrome_extension
+前端助手模拟APP的api返回mock数据。
