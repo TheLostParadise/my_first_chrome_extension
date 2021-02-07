@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Mobile Bank Assistent",
+    "description": "Simulate Api data.",
+    "version": "1.0",
+    "icons": {
+      "128": "scripts_and_others/logo.png",
+      "48": "scripts_and_others/logo.png",
+      "16": "scripts_and_others/logo.png"
+    },
+  
+    "browser_action": {
+      "default_icon": "scripts_and_others/logo.png",
+      "default_popup": "popup.html"
+    },
+  
+    "permissions": [
+      "http://*/*",
+      "https://*/*",
+      "cookies",
+      "storage",
+      "webRequest",
+      "webRequestBlocking"
+    ],
+    "background":{
+      "scripts":["background.js"],
+      "persistent":true
+    },
+    "options_page": "options.html"
+
+
+  }
